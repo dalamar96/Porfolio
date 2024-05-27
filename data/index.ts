@@ -169,7 +169,7 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/instagram.svg",
+    img: "/insta.svg",
     link: 'https://www.instagram.com/beachbreezestudios/',
   },
   {
