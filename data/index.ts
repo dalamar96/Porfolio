@@ -166,15 +166,18 @@ export const socialMedia = [
     id: 1,
     img: "/git.svg",
     link: 'https://github.com/dalamar96',
+    descr: 'Github Profile',
   },
   {
     id: 2,
     img: "/insta.svg",
     link: 'https://www.instagram.com/beachbreezestudios/',
+    descr: 'Instagram Profile',
   },
   {
     id: 3,
     img: "/link.svg",
     link: 'https://www.linkedin.com/in/chadnaujoks/',
+    descr: 'LinkedIn Profile',
   },
 ];
