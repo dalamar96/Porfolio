@@ -94,6 +94,14 @@ export const testimonials = [
       "I had the pleasure of working with Chad on a SaaS project that leveraged NextJS, MySQL, AWS, and ExpressJS. They demonstrated exceptional technical expertise, effective communication, and a meticulous approach to problem-solving. I was impressed by their ability to seamlessly integrate technologies, optimize infrastructure costs, and ensure a high-quality final product. Throughout the project, they maintained open and transparent communication channels, and their attention to detail resulted in a stable and reliable application. Overall, I highly recommend Chad for future collaborations - they are an asset to any project or organization!",
     name: "Michael Smith",
     title: "Director of AlphaRealm Technologies",
+    image: "/profile.svg",
+  },
+  {
+    quote:
+    "I'm thrilled with the WordPress website Chad created for my travel modeling blog! He crafted a beautiful site that seamlessly integrates an image gallery, blog area, and newsletter sign-up feature. I'm impressed with the customization options he provided, allowing me to easily update content and manage my online presence. Chad was attentive, technically skilled, and communicative throughout the project, making him a joy to work with. He's a master of his craft, and I highly recommend him for any WordPress development project - he exceeded my expectations in every way!",
+    name: "Samantha Jones",
+    title: "Traveling Model",
+    image: "/samanthajones.png",
   },
 ];
 
@@ -118,9 +126,9 @@ export const companies = [
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "Vercel",
+    img: "/vercel.svg",
+    nameImg: "/vercelname.svg",
   },
   {
     id: 5,
