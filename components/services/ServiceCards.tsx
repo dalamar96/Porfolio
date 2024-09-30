@@ -343,7 +343,7 @@ const services: Service[] = [
 ];
 
 const ServiceCards = () => {
-  const [selectedService, setSelectedService] = useState(null);
+  const [selectedService, setSelectedService] = useState<Service|null>(null);
 
   const handleCloseModal = () => {
     setSelectedService(null);
