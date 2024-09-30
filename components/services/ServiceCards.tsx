@@ -182,7 +182,7 @@ const services: Service[] = [
     detailedInfo: (
       <>
         <p className="mb-4">
-          Our <strong>Search Engine Optimization (SEO)</strong> services focus on improving your website's visibility on search engines like Google. We implement best practices to help your site rank higher for relevant keywords.
+          Our <strong>Search Engine Optimization (SEO)</strong> services focus on improving your website\'s visibility on search engines like Google. We implement best practices to help your site rank higher for relevant keywords.
         </p>
         <h3 className="text-xl font-semibold mb-2">SEO Services:</h3>
         <ul className="list-disc list-inside mb-4">
@@ -207,7 +207,7 @@ const services: Service[] = [
     detailedInfo: (
       <>
         <p className="mb-4">
-          Our <strong>Cloud Services</strong> provide scalable and secure solutions for your business needs. Whether you're migrating to the cloud or optimizing your existing infrastructure, we've got you covered.
+          Our <strong>Cloud Services</strong> provide scalable and secure solutions for your business needs. Whether you\'re migrating to the cloud or optimizing your existing infrastructure, we\'ve got you covered.
         </p>
         <h3 className="text-xl font-semibold mb-2">Services Offered:</h3>
         <ul className="list-disc list-inside mb-4">
@@ -319,7 +319,7 @@ const services: Service[] = [
     detailedInfo: (
       <>
         <p className="mb-4">
-          Our <strong>API Development and Integration</strong> services ensure that your applications can communicate effectively with other systems. We build scalable APIs and integrate various third-party services to extend your application's capabilities.
+          Our <strong>API Development and Integration</strong> services ensure that your applications can communicate effectively with other systems. We build scalable APIs and integrate various third-party services to extend your application\'s capabilities.
         </p>
         <h3 className="text-xl font-semibold mb-2">API Services:</h3>
         <ul className="list-disc list-inside mb-4">
