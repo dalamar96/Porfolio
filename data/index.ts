@@ -1,8 +1,11 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "About", link: "/#about" },
+  { name: "Projects", link: "/#projects" },
+  { name: "Testimonials", link: "/#testimonials" },
+  { name: "Contact", link: "/#contact" },
+  { name: "Services", link: "/services" },
+  // { name: "Blog", link: "/blog"},
+  // { name: "Resume", link: "/resume"},
 ];
 
 export const gridItems = [
@@ -75,7 +78,7 @@ export const projects = [
     des: "A place for photographers and models to get various outfits and lingerie to expand their looks for photo sessions.",
     img: "/p5.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/wix.svg"],
-    link: "https://www.madrabbitdesigns.com",
+    //link: "Under Construction",
   },
   {
     id: 2,
@@ -83,7 +86,15 @@ export const projects = [
     des: "A project that I can't disclose yet, but has to do with profiles and data of Adult Industry Workers.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    //link: "Under Construction",
+  },
+  {
+    id: 3,
+    title: "Coastal Sinsations",
+    des: "An adult novelty and toy store that also offers informational posts about sexual health and wellness.",
+    img: "/coastalsin.png",
+    iconLists: ["/wordpress.svg", "/woocommerce.svg"],
+    link: "https://coastalsinsations.com",
   },
 ];
 
@@ -97,7 +108,7 @@ export const testimonials = [
   },
   {
     quote:
-    "I'm thrilled with the WordPress website Chad created for my travel modeling blog! He crafted a beautiful site that seamlessly integrates an image gallery, blog area, and newsletter sign-up feature. I'm impressed with the customization options he provided, allowing me to easily update content and manage my online presence. Chad was attentive, technically skilled, and communicative throughout the project, making him a joy to work with. He's a master of his craft, and I highly recommend him for any WordPress development project - he exceeded my expectations in every way!",
+      "I'm thrilled with the WordPress website Chad created for my travel modeling blog! He crafted a beautiful site that seamlessly integrates an image gallery, blog area, and newsletter sign-up feature. I'm impressed with the customization options he provided, allowing me to easily update content and manage my online presence. Chad was attentive, technically skilled, and communicative throughout the project, making him a joy to work with. He's a master of his craft, and I highly recommend him for any WordPress development project - he exceeded my expectations in every way!",
     name: "Samantha Jones",
     title: "Traveling Model",
     image: "/samanthajones.png",
@@ -134,7 +145,7 @@ export const companies = [
     name: "docker.",
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
-  },
+  }
 ];
 
 export const workExperience = [
@@ -188,3 +199,5 @@ export const socialMedia = [
     descr: 'LinkedIn Profile',
   },
 ];
+
+

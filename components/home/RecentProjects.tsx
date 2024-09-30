@@ -3,7 +3,7 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
-import { PinContainer } from "./ui/Pin";
+import { PinContainer } from "../ui/Pin";
 
 const RecentProjects = () => {
   return (
@@ -67,12 +67,14 @@ const RecentProjects = () => {
                   </div>
 
                   <div>
-                    <a href={item.link} target="_blank" rel="noreferrer" className="flex justify-center items-center">
-                      <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                        Check Live Site
-                      </p>
-                      <FaLocationArrow className="ms-3" color="#CBACF9" />
-                    </a>
+                    {item.link && (
+                      <a href={item.link} target="_blank" rel="noreferrer" className="flex justify-center items-center">
+                        <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                          Check Live Site
+                        </p>
+                        <FaLocationArrow className="ms-3" color="#CBACF9" />
+                      </a>
+                    )}
                   </div>
                 </div>
               </PinContainer>
