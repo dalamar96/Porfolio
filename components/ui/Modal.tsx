@@ -5,7 +5,15 @@ import { useEffect } from "react";
 import { FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 
-const Modal = ({ isOpen, onClose, title, children }) => {
+// 1. Define the Props Interface
+interface ModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+  title: string;
+  children: React.ReactNode;
+}
+
+const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children }) => {
     useEffect(() => {
         const handleEscape = (event) => {
             if (event.key === "Escape") onClose();
